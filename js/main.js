@@ -202,6 +202,7 @@ function checkMatch() {
       score += 10;
       // 점수도 10점 올림
 
+      // asdfasdfasdfasdf
       if (score % 100 === 0) {
         // 만약에 점수가 100으로 나눴을 때 나머지가 0이면
         // console.log(duration);
