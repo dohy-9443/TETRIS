@@ -46,7 +46,11 @@ body {
 .score {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 2rem;
+}
+
+.speed {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .board > ul {
@@ -97,4 +101,24 @@ body {
 
 .elRight {
   background: #b57fb3;
+}
+
+.playBtn {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.playBtn button {
+  padding: 2rem;
+  border: none;
+  background: salmon;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
